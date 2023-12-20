@@ -5,9 +5,9 @@
     <remote name="Lineage" fetch="https://github.com/LineageOS" />
 
     <!-- Device-Tree e Device-Common -->
-    <project path="device/motorola/devon" name="device_motorola_devon" remote="Dt" revision="Lineage-21"  />
-    <project path="device/motorola/hawao" name="device_motorola_hawao" remote="Dt" revision="Lineage-21"  />
-    <project path="device/motorola/rhode" name="device_motorola_rhode" remote="Dt" revision="Lineage-21"  />
+    <project path="device/motorola/devon" name="device_motorola_devon" remote="Dt" revision="Fourteen"  />
+    <project path="device/motorola/hawao" name="device_motorola_hawao" remote="Dt" revision="Fourteen"  />
+    <project path="device/motorola/rhode" name="device_motorola_rhode" remote="Dt" revision="Fourteen"  />
     <project path="device/motorola/sm6225-common" name="device_motorola_sm6225-common" remote="Dt" revision="Fourteen"  />
 
     <!-- Vendor e Vendor-Common -->
