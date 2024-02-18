@@ -3,22 +3,26 @@
     <remote name="Dt" fetch="https://github.com/SM6225-Project" />
     <remote name="Vendor" fetch="https://github.com/TheMuppets" />
     <remote name="Lineage" fetch="https://github.com/LineageOS" />
+    <remote name="Viper4" fetch="https://github.com/TogoFire" />
 
-    <!-- Device-Tree e Device-Common -->
+    <!-- Device-Tree && Device-Common -->
     <project path="device/motorola/devon" name="device_motorola_devon" remote="Dt" revision="Fourteen"  />
     <project path="device/motorola/hawao" name="device_motorola_hawao" remote="Dt" revision="Fourteen"  />
     <project path="device/motorola/rhode" name="device_motorola_rhode" remote="Dt" revision="Fourteen"  />
     <project path="device/motorola/sm6225-common" name="device_motorola_sm6225-common" remote="Dt" revision="Fourteen"  />
 
-    <!-- Vendor e Vendor-Common -->
+    <!-- Vendor && Vendor-Common -->
     <project path="vendor/motorola/devon" name="proprietary_vendor_motorola_devon" remote="Vendor" revision="lineage-21"  />
     <project path="vendor/motorola/hawao" name="proprietary_vendor_motorola_hawao" remote="Vendor" revision="lineage-21"  />
     <project path="vendor/motorola/rhode" name="proprietary_vendor_motorola_rhode" remote="Vendor" revision="lineage-21"  />
     <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="Dt" revision="Fourteen"  />
     
-    <!-- Kernel e Dependências -->
+    <!-- Kernel && Dependencies -->
     <project path="kernel/motorola/sm6225" name="kernel_motorola_sm6225" remote="Dt" revision="Fourteen"  />
     <project path="system/qcom" name="android_system_qcom" remote="Lineage" revision="lineage-21"  />
     <project path="hardware/motorola" name="android_hardware_motorola" remote="Lineage" revision="lineage-21"  />
 
+    <!-- ViPER4AndroidFX -->
+    <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Viper4" revision="v4a"  />
+ 
 </manifest>
